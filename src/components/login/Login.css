@@ -1,0 +1,87 @@
+.login,
+.signup {
+  margin: 0 auto;
+}
+
+.login {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 380px;
+  background-color: white;
+  margin-top: 8.1%;
+}
+
+.signup {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 63px;
+  margin-top: 12px;
+  background-color: white;
+  font-size: 14px;
+}
+
+.signup_btn {
+  color: #3798f0;
+  font-weight: 700;
+  margin-left: 3px;
+}
+
+.logo_image {
+  margin-top: -100px;
+}
+
+.login_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input_id,
+.input_password {
+  width: 269px;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.034);
+  background-color: #fafafa;
+  color: black;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.input_id {
+  margin-top: 29px;
+  margin-bottom: 7px;
+}
+
+.input_password {
+  margin-bottom: 16px;
+}
+
+::placeholder {
+  opacity: 80%;
+}
+
+.login-btn {
+  width: 269px;
+  height: 30px;
+  border-radius: 3px;
+  border: 0;
+  background-color: #c6dffa;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.forgotpassword {
+  font-size: 12px;
+  color: #003569;
+  position: absolute;
+  bottom: 22px;
+}

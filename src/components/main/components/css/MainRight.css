@@ -1,0 +1,140 @@
+.main_right {
+  width: 293px;
+  height: 580px;
+}
+
+.my {
+  display: flex;
+  align-items: center;
+  height: 53px;
+  margin-bottom: 17px;
+}
+
+.myprofile {
+  margin-left: 5px;
+  margin-bottom: -3px;
+}
+
+.myprofile_content {
+  margin-left: 15px;
+}
+.myprofile_content .myprofile_name {
+  display: block;
+  margin-bottom: -5px;
+}
+
+.stories {
+  height: 223px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: white;
+  margin-bottom: 14px;
+}
+
+.stories_header {
+  display: flex;
+  justify-content: space-between;
+  margin: 13px 17px;
+}
+
+.stories_main > ul {
+  padding-left: 23px;
+  margin-top: 6px;
+}
+
+.stories_main {
+  height: 176px;
+  overflow: scroll;
+}
+.stories_list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.stories_profile {
+  width: 42px;
+  height: 42px;
+  top: -5px;
+  left: -5px;
+  border: 2px solid #dc3173;
+  border-radius: 50%;
+  position: relative;
+}
+
+.stories_profile-content .stories_profile_name {
+  display: block;
+  margin-bottom: -4px;
+}
+
+.stories_profile-content {
+  margin-left: 5px;
+  margin-top: -11px;
+}
+
+.suggestion {
+  height: 197px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+.suggestion_header {
+  display: flex;
+  justify-content: space-between;
+  margin: 13px 17px;
+}
+
+.suggestion_list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.suggestion-main > ul {
+  padding-left: 20px;
+}
+
+.suggestion_profile-content .suggestion_profile_name {
+  display: block;
+  margin-bottom: -4px;
+}
+
+.suggestion_profile-content {
+  margin-left: 12px;
+  margin-top: -10px;
+}
+
+.follow-btn1 {
+  margin-left: 112px;
+}
+
+.follow-btn2 {
+  margin-left: 18px;
+}
+
+/* 이미지 사이즈 */
+.myprofile_picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.stories_profile_picture {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+.suggestion_profile_picture {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #dbdbdb;
+}
